@@ -57,16 +57,4 @@ else {
   alert('Input not valid');
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+alert(`thank you ${userName}, for answering my questions!!. I hope you have a nice day`);
