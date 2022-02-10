@@ -61,18 +61,17 @@ else {
 const myNumber = 2
 for (let counter = 0; counter < 4; counter++) {
   let input = prompt('Guess a number 1-10.');
-  if (input == myNumber) {
+  
+// review this part!!!! you needed to use strictly equals
+  if (+input === myNumber) {
     alert('congrats you got it right!!!');
     score++;
     break;
-  }
-  else if (input > myNumber) {
+  } else if (input > myNumber) {
     alert('too high');
-  }
-  else if (input < myNumber) {
+  } else if (input < myNumber) {
     alert('too low');
-  }
-  else {
+  } else {
     alert('Input invalid');
   }
 
@@ -84,7 +83,7 @@ let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
 let rightAnswer = false // false becuase so far they haven't got it right
 for (let tries = 0; tries < 6; tries++) {
   let  input = prompt('Guess my favorite snack.');
-  // this loop is to access the values of the array.to check tha 
+  // this loop is to access the values of the array.
   for (let i = 0; i < snacks.length; i++) { 
     // this checks the input against the array 
     if (input === snacks[i]) {
