@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  background: 
+    linear-gradient(45deg, rgb(17, 4, 51) 60px, transparent),
+    repeating-linear-gradient(45deg,purple 0%, red 5%);
+  
+}
+
+h1{
+  border: 9px ridge rgba(143, 17, 216, 0.53); font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 4em;background-color: rgb(171, 223, 248);
+}
+
+h2 {
+  border: 5px ;font-family: fantasy;font-size: 3em;
+}
+
+h3{
+ border: 5px ;font-family: fantasy;font-size: 3em;
+}
+
+p{
+  border: 9px ridge rgb(9, 155, 223);font-size: 25px; font-family:'Courier New', Courier, monospace;color: aliceblue;
+}
+
