@@ -56,6 +56,19 @@ else {
   alert('Input not valid');
 }
 
+let answerFive = prompt('Do I like snowboarding?').toLowerCase();
+console.log(answerFive);
+if (answerFour === 'yes' || answerFive === 'y') {
+  alert('You are Correct!!');
+  score++
+} else if (answerFive === 'no' || answerFive === 'n') {
+  alert('you are incorrect!! ');
+  console.log('you are incorrect.');
+}
+else {
+  alert('Input not valid');
+}
+
 
 //6th questions
 const myNumber = 2
@@ -79,8 +92,11 @@ for (let counter = 0; counter < 4; counter++) {
 
 
 //7th questions
+
+
 let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
 let rightAnswer = false // false becuase so far they haven't got it right
+
 for (let tries = 0; tries < 6; tries++) {
   let  input = prompt('Guess my favorite snack.');
   // this loop is to access the values of the array.
@@ -102,6 +118,8 @@ for (let tries = 0; tries < 6; tries++) {
 }
 alert(`The correct answers are ${snacks}`)
 alert(`You answered ${score} out of 7 questions right`)
+
+
 
 
 
