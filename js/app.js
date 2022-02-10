@@ -53,20 +53,24 @@ function questionThree(){
 
 }
 questionThree();
-//fourth question
-let answerFour = prompt('Do I like Pizza?').toLowerCase();
-console.log(answerFour);
-if (answerFour === 'yes' || answerFour === 'y') {
-  alert('You are Correct!!');
-  score++
-} else if (answerFour === 'no' || answerFour === 'n') {
-  alert('you are incorrect!! ');
-  console.log('you are incorrect.');
-}
-else {
-  alert('Input not valid');
-}
 
+function questionFour(){
+  //fourth question
+  let answerFour = prompt('Do I like Pizza?').toLowerCase();
+  console.log(answerFour);
+  if (answerFour === 'yes' || answerFour === 'y') {
+    alert('You are Correct!!');
+    score++
+  } else if (answerFour === 'no' || answerFour === 'n') {
+    alert('you are incorrect!! ');
+    console.log('you are incorrect.');
+  }
+  else {
+    alert('Input not valid');
+  }
+
+}
+questionFour();
 let answerFive = prompt('Do I like snowboarding?').toLowerCase();
 console.log(answerFive);
 if (answerFour === 'yes' || answerFive === 'y') {
