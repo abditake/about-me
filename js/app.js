@@ -21,19 +21,23 @@ function questionOne(){
   }
 }
 questionOne();
+function questionTwo(){
+  //second question
+  let answerTwo = prompt('Do I like to play games?').toLowerCase();
+  console.log(answerTwo);
+  if (answerTwo === 'yes' || answerTwo === 'y') {
+    alert('You are Correct!!');
+    score++
+  } else if (answerTwo === 'no' || answerTwo === 'n') {
+    alert('you are incorrect!! ');
+  }
+  else {
+    alert('Input not valid');
+  }
 
-//second question
-let answerTwo = prompt('Do I like to play games?').toLowerCase();
-console.log(answerTwo);
-if (answerTwo === 'yes' || answerTwo === 'y') {
-  alert('You are Correct!!');
-  score++
-} else if (answerTwo === 'no' || answerTwo === 'n') {
-  alert('you are incorrect!! ');
 }
-else {
-  alert('Input not valid');
-}
+questionTwo();
+
 //third question
 let answerThree = prompt('Do I like fishing?').toLowerCase();
 if (answerThree === 'yes' || answerThree === 'y') {
