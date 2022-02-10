@@ -38,17 +38,21 @@ function questionTwo(){
 }
 questionTwo();
 
-//third question
-let answerThree = prompt('Do I like fishing?').toLowerCase();
-if (answerThree === 'yes' || answerThree === 'y') {
-  alert('You are Correct!!');
-  score++
-} else if (answerThree === 'no' || answerThree === 'n') {
-  alert('you are incorrect!! ');
+function questionThree(){
+  //third question
+  let answerThree = prompt('Do I like fishing?').toLowerCase();
+  if (answerThree === 'yes' || answerThree === 'y') {
+    alert('You are Correct!!');
+    score++
+  } else if (answerThree === 'no' || answerThree === 'n') {
+    alert('you are incorrect!! ');
+  }
+  else {
+    alert('Input not valid');
+  }
+
 }
-else {
-  alert('Input not valid');
-}
+questionThree();
 //fourth question
 let answerFour = prompt('Do I like Pizza?').toLowerCase();
 console.log(answerFour);
