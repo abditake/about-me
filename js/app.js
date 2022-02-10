@@ -1,67 +1,84 @@
 `use strict`;
 
 
-let userName = prompt('What is your name');
-alert(`welcome ${userName} , it's very nice to meet you.`);
+// let userName = prompt('What is your name');
+// alert(`welcome ${userName} , it's very nice to meet you.`);
 
 let score = 0
 
-function questionOne(){
-  //first question
-  let answerOne = prompt('Do I like anime?').toLowerCase();
-  if (answerOne === 'yes' || answerOne === 'y') {
-    alert('You are Correct!!');
-    score++
-  } else if (answerOne === 'no' || answerOne === 'n') {
+// function questionOne(){
+//   //first question
+//   let answerOne = prompt('Do I like anime?').toLowerCase();
+//   if (answerOne === 'yes' || answerOne === 'y') {
+//     alert('You are Correct!!');
+//     score++
+//   } else if (answerOne === 'no' || answerOne === 'n') {
   
-    alert('you are incorrect!!');
-  }
-  else {
-    alert('Input not valid');
-  }
-}
-questionOne();
-function questionTwo(){
-  //second question
-  let answerTwo = prompt('Do I like to play games?').toLowerCase();
-  console.log(answerTwo);
-  if (answerTwo === 'yes' || answerTwo === 'y') {
+//     alert('you are incorrect!!');
+//   }
+//   else {
+//     alert('Input not valid');
+//   }
+// }
+// questionOne();
+// function questionTwo(){
+//   //second question
+//   let answerTwo = prompt('Do I like to play games?').toLowerCase();
+//   console.log(answerTwo);
+//   if (answerTwo === 'yes' || answerTwo === 'y') {
+//     alert('You are Correct!!');
+//     score++
+//   } else if (answerTwo === 'no' || answerTwo === 'n') {
+//     alert('you are incorrect!! ');
+//   }
+//   else {
+//     alert('Input not valid');
+//   }
+
+// }
+// questionTwo();
+
+// function questionThree(){
+//   //third question
+//   let answerThree = prompt('Do I like fishing?').toLowerCase();
+//   if (answerThree === 'yes' || answerThree === 'y') {
+//     alert('You are Correct!!');
+//     score++
+//   } else if (answerThree === 'no' || answerThree === 'n') {
+//     alert('you are incorrect!! ');
+//   }
+//   else {
+//     alert('Input not valid');
+//   }
+
+// }
+// questionThree();
+
+// function questionFour(){
+//   //fourth question
+//   let answerFour = prompt('Do I like Pizza?').toLowerCase();
+//   console.log(answerFour);
+//   if (answerFour === 'yes' || answerFour === 'y') {
+//     alert('You are Correct!!');
+//     score++
+//   } else if (answerFour === 'no' || answerFour === 'n') {
+//     alert('you are incorrect!! ');
+//     console.log('you are incorrect.');
+//   }
+//   else {
+//     alert('Input not valid');
+//   }
+
+// }
+// questionFour();
+
+function questionFive(){
+  let answerFive = prompt('Do I like snowboarding?').toLowerCase();
+  console.log(answerFive);
+  if (answerFive === 'yes' || answerFive === 'y') {
     alert('You are Correct!!');
     score++
-  } else if (answerTwo === 'no' || answerTwo === 'n') {
-    alert('you are incorrect!! ');
-  }
-  else {
-    alert('Input not valid');
-  }
-
-}
-questionTwo();
-
-function questionThree(){
-  //third question
-  let answerThree = prompt('Do I like fishing?').toLowerCase();
-  if (answerThree === 'yes' || answerThree === 'y') {
-    alert('You are Correct!!');
-    score++
-  } else if (answerThree === 'no' || answerThree === 'n') {
-    alert('you are incorrect!! ');
-  }
-  else {
-    alert('Input not valid');
-  }
-
-}
-questionThree();
-
-function questionFour(){
-  //fourth question
-  let answerFour = prompt('Do I like Pizza?').toLowerCase();
-  console.log(answerFour);
-  if (answerFour === 'yes' || answerFour === 'y') {
-    alert('You are Correct!!');
-    score++
-  } else if (answerFour === 'no' || answerFour === 'n') {
+  } else if (answerFive === 'no' || answerFive === 'n') {
     alert('you are incorrect!! ');
     console.log('you are incorrect.');
   }
@@ -70,20 +87,7 @@ function questionFour(){
   }
 
 }
-questionFour();
-let answerFive = prompt('Do I like snowboarding?').toLowerCase();
-console.log(answerFive);
-if (answerFour === 'yes' || answerFive === 'y') {
-  alert('You are Correct!!');
-  score++
-} else if (answerFive === 'no' || answerFive === 'n') {
-  alert('you are incorrect!! ');
-  console.log('you are incorrect.');
-}
-else {
-  alert('Input not valid');
-}
-
+questionFive();
 
 //6th questions
 const myNumber = 2
