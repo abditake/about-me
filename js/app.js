@@ -6,18 +6,21 @@ alert(`welcome ${userName} , it's very nice to meet you.`);
 
 let score = 0
 
-//first question
-let answerOne = prompt('Do I like anime?').toLowerCase();
-if (answerOne === 'yes' || answerOne === 'y') {
-  alert('You are Correct!!');
-  score++
-} else if (answerOne === 'no' || answerOne === 'n') {
-
-  alert('you are incorrect!!');
+function questionOne(){
+  //first question
+  let answerOne = prompt('Do I like anime?').toLowerCase();
+  if (answerOne === 'yes' || answerOne === 'y') {
+    alert('You are Correct!!');
+    score++
+  } else if (answerOne === 'no' || answerOne === 'n') {
+  
+    alert('you are incorrect!!');
+  }
+  else {
+    alert('Input not valid');
+  }
 }
-else {
-  alert('Input not valid');
-}
+questionOne();
 
 //second question
 let answerTwo = prompt('Do I like to play games?').toLowerCase();
