@@ -112,32 +112,36 @@ function questionSix(){
 }
 questionSix();
 
-//7th questions
-
-
-let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
-let rightAnswer = false // false becuase so far they haven't got it right
-
-for (let tries = 0; tries < 6; tries++) {
-  let  input = prompt('Guess my favorite snack.');
-  // this loop is to access the values of the array.
-  for (let i = 0; i < snacks.length; i++) { 
-    // this checks the input against the array 
-    if (input === snacks[i]) {
-      rightAnswer = true //to get out of the outer for loop
-      score++;
-      console.log(snacks[i]);
-      alert('You are correct!');
-      break;//gets you out of inner loop
+function questionSeven(){
+  //7th questions
+  
+  
+  let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
+  let rightAnswer = false // false becuase so far they haven't got it right
+  
+  for (let tries = 0; tries < 6; tries++) {
+    let  input = prompt('Guess my favorite snack.');
+    // this loop is to access the values of the array.
+    for (let i = 0; i < snacks.length; i++) { 
+      // this checks the input against the array 
+      if (input === snacks[i]) {
+        rightAnswer = true //to get out of the outer for loop
+        score++;
+        console.log(snacks[i]);
+        alert('You are correct!');
+        break;//gets you out of inner loop
+      }
     }
+    // this loop is to get out of the outer for loop
+    if (rightAnswer === true) {
+      break;
+    }
+    alert('You are wrong');
   }
-  // this loop is to get out of the outer for loop
-  if (rightAnswer === true) {
-    break;
-  }
-  alert('You are wrong');
+  alert(`The correct answers are ${snacks}`)
+
 }
-alert(`The correct answers are ${snacks}`)
+questionSeven();
 alert(`You answered ${score} out of 7 questions right`)
 
 
