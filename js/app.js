@@ -88,27 +88,29 @@ function questionFive(){
 
 }
 questionFive();
-
-//6th questions
-const myNumber = 2
-for (let counter = 0; counter < 4; counter++) {
-  let input = prompt('Guess a number 1-10.');
+function questionSix(){
+  //6th questions
+  const myNumber = 2
+  for (let counter = 0; counter < 4; counter++) {
+    let input = prompt('Guess a number 1-10.');
+    
+  // review this part!!!! you needed to use strictly equals
+    if (+input === myNumber) {
+      alert('congrats you got it right!!!');
+      score++;
+      break;
+    } else if (input > myNumber) {
+      alert('too high');
+    } else if (input < myNumber) {
+      alert('too low');
+    } else {
+      alert('Input invalid');
+    }
   
-// review this part!!!! you needed to use strictly equals
-  if (+input === myNumber) {
-    alert('congrats you got it right!!!');
-    score++;
-    break;
-  } else if (input > myNumber) {
-    alert('too high');
-  } else if (input < myNumber) {
-    alert('too low');
-  } else {
-    alert('Input invalid');
   }
 
 }
-
+questionSix();
 
 //7th questions
 
