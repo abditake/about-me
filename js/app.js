@@ -119,6 +119,8 @@ function questionSeven(){
   let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
   let rightAnswer = false // false becuase so far they haven't got it right
   
+    // specialC = 6
+   // while (specialC > 0) {
   for (let tries = 0; tries < 6; tries++) {
     let  input = prompt('Guess my favorite snack.');
     // this loop is to access the values of the array.
