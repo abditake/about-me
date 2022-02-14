@@ -117,7 +117,7 @@ function questionSeven(){
   
   
   let snacks = ['chips', 'cookies', 'fruit', 'vegetables'];
-  let rightAnswer = false // false becuase so far they haven't got it right
+  let rightAnswer = false // false because so far they haven't got it right
   
     // specialC = 6
    // while (specialC > 0) {
