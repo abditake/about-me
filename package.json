@@ -1,0 +1,23 @@
+{
+  "name": "about-me",
+  "version": "1.0.0",
+  "description": "- submission PR\r - https://www.w3schools.com/css/\r - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration\r # Reflections and Comments\r - The hardest part of this was probably setting up the html from just a few comments. I didn't know where to start or how it should look. I just happened to just get started. I feel like if i planned out what I wanted my about-me page to look like I would have been less nervous throughout the project. \r - used html to style a little better for the webpage.\r - used javascript to make sure the questionnaire portion of my website ran correctly.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d about-me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abditake/about-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abditake/about-me/issues"
+  },
+  "homepage": "https://abditake.github.io/about-me",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
