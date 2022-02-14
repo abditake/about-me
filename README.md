@@ -1,6 +1,6 @@
 # LAB - 02
 # About-me
-## I built a website that . It creates prompts for the user to answer trivia questions about myself.It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+## I built a website called About-me . It creates prompts for the user to answer trivia questions about myself.It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
 
 # Author: Abdinasir Yussuf
 # Links and Resources
